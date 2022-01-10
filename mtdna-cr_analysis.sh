@@ -1,6 +1,9 @@
 ##Throughout the text, ${name} refers to sample's name 
 ##${PMDTOOLS_ROUTE} is the route where pmdtools.0.60.py (PMDtools script) is saved
-               
+
+#Sequencing quality control
+fastqc -f fastq *fq.gz
+
 #Adapters are trimmed with fastp
 fastp --verbose \
   --detect_adapter_for_pe \
