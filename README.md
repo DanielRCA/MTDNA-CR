@@ -24,7 +24,7 @@ A group of tools must be pre-installed. For each tool, version used by our group
 
 ## Citations
 
-UNDER CONSTRUCTION
+This pipeline is not already published (it is under submission)
 
 > Diana C. Vinueza-Espinosa, Daniel R. Cuesta-Aguirre, Assumpció Malgosa, Cristina Santos; MtDNA-CR Typing from Highly Degraded Skeletal Remains by Single-Multiplex Massively Parallel Sequencing, Unpublished
 
