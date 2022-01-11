@@ -26,8 +26,6 @@ A group of tools must be pre-installed. For each tool, version used by our group
 
 This pipeline is not already published (it is under submission)
 
-> Diana C. Vinueza-Espinosa, Daniel R. Cuesta-Aguirre, Assumpció Malgosa, Cristina Santos; MtDNA-CR Typing from Highly Degraded Skeletal Remains by Single-Multiplex Massively Parallel Sequencing, Unpublished
-
 References of tools used:
 - **FastQC** S. Andrews (2010), FASTQC. A quality control tool for high throughput sequence data, https://www.bioinformatics.babraham.ac.uk/projects/fastqc/
 - **fastp** S. Chen, Y. Zhou, Y. Chen, J. Gu; fastp: an ultra-fast all-in-one FASTQ preprocessor, Bioinformatics, Volume 34, Issue 17, 1 September 2018, Pages i884–i890, https://doi.org/10.1093/bioinformatics/bty560
