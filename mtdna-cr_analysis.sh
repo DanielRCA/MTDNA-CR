@@ -82,7 +82,7 @@ qualimap bamqc -bam ${name}.bam -c -gd hg19 -outdir ${name}_qualimap_bamqc
 #Reads with Post-Mortem Damage are selected
 samtools view -h ${name}.bam | python ${PMDTOOLS_ROUTE}/pmdtools.0.60.py--threshold 1 --header | samtools view -Sb - > pmd_${name}.bam
 
-#Polimorphisms are obteined with freebayes
+#Polimorphisms are obteined with freebayes and vcfallelicprimitives
 freebayes -f reference_mt.fa -i -X -F 0.1 -C 3 --min-coverage 30 ${name}.bam | vcfallelicprimitives -kg > ${name}.vcf
 
 
