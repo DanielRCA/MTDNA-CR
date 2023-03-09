@@ -16,8 +16,10 @@ A group of tools must be pre-installed. For each tool, version used by our group
 ## Pipeline Summary
 
 - Sequencing quality control (FastQC)
+- Duplicates removal (fastp)
 - Adapter removal (fastp)
 - Primers removal (fastp)
+- Merge of overlapping Paired End reads (fastp)
 - Reads mapping to reference (bwa aln, bwa sampe, samtools)
 - Post-mapping processing (samtools)
 - BAM quality control (QualiMap)
