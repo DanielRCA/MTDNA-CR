@@ -6,10 +6,12 @@ A group of tools must be pre-installed. For each tool, version used by our group
 - FastQC (v0.11.9)
 - fastp (v0.23.2)
 - BWA (v0.7.17)
-- SAMtools (v1.13)
+- SAMtools (v1.16.1)
 - QualiMap (v2.2.2a)
--  PMDtools (v0.60)
--  Freebayes (v0.9.21.7)
+- PMDtools (v0.60)
+- freebayes (v1.3.6)
+- vcflib (v1.0.3)
+- vcftools (v0.1.16)
 
 ## Pipeline Summary
 
@@ -20,7 +22,7 @@ A group of tools must be pre-installed. For each tool, version used by our group
 - Post-mapping processing (samtools)
 - BAM quality control (QualiMap)
 - Selection of reads with Post-Mortem Damage (PMDtools)
-- Obtention of polimorphisms (freebayes)
+- Obtention of polimorphisms (freebayes + vcfallelicprimitives)
 
 ## Citations
 
@@ -34,3 +36,4 @@ References of tools used:
 - **QualiMap** K. Okonechnikov, A. Conesa, F. García-Alcalde (2016), Qualimap 2: advanced multi-sample quality control for high-throughput sequencing data.  Bioinformatics, Volume 32, Issue 2, 15 January 2016, Pages 292–294, https://doi.org/10.1093/bioinformatics/btv566
 - **PMDtools** P. Skoglund, BH. Northoff, MV. Shunkov, A. Derevianko, S. Pääbo, J. Krause, M. Jakobsson (2014), Separating ancient DNA from modern contamination in a Siberian Neandertal. Proceedings of the National Academy of Sciences USA https://doi.org/10.1073/pnas.1318934111
 - **Freebayes** E. Garrison, G. Marth (2012), Haplotype-based variant detection from short-read sequencing. arXiv preprint arXiv:1207.3907 [q-bio.GN]
+- **Freebayes** E. Garrison, ZN. Kronenberg, ET. Dawson, BS Pedersen, P Prins (2022), A spectrum of free software tools for processing the VCF variant call format: vcflib, bio-vcf, cyvcf2, hts-nim and slivar. PLoS Comput Biol 18(5): e1009123, https://doi.org/10.1371/journal.pcbi.1009123
