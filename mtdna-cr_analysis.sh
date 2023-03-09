@@ -84,3 +84,5 @@ samtools view -h ${name}.bam | python ${PMDTOOLS_ROUTE}/pmdtools.0.60.py--thresh
 
 #Polimorphisms are obteined with freebayes
 freebayes -f reference_mt.fa -i -X -F 0.1 -C 3 --min-coverage 30 ${name}.bam | vcfallelicprimitives -kg > ${name}.vcf
+
+
