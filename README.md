@@ -28,7 +28,9 @@ A group of tools must be pre-installed. For each tool, version used by our group
 
 ## Citations
 
-This pipeline is not already published (it is under submission)
+If you use `DanielRCA/MTDNA-CR` for your analysis, please cite the `MTDNA-CR` paper as follows:
+
+> Vinueza-Espinosa, DC, Cuesta-Aguirre, DR, Malgosa, A, Santos, C. Mitochondrial DNA control region typing from highly degraded skeletal remains by single-multiplex next-generation sequencing. Electrophoresis. 2023; 44: 1423–1434. https://doi.org/10.1002/elps.202200052
 
 References of tools used:
 - **FastQC** S. Andrews (2010), FASTQC. A quality control tool for high throughput sequence data, https://www.bioinformatics.babraham.ac.uk/projects/fastqc/
