@@ -32,7 +32,7 @@ If you use `DanielRCA/MTDNA-CR` for your analysis, please cite the `MTDNA-CR` pa
 
 > Vinueza-Espinosa, DC, Cuesta-Aguirre, DR, Malgosa, A, Santos, C. Mitochondrial DNA control region typing from highly degraded skeletal remains by single-multiplex next-generation sequencing. Electrophoresis. 2023; 44: 1423–1434. https://doi.org/10.1002/elps.202200052
 
-References of tools used:
+References of used tools:
 - **FastQC** S. Andrews (2010), FASTQC. A quality control tool for high throughput sequence data, https://www.bioinformatics.babraham.ac.uk/projects/fastqc/
 - **fastp** S. Chen, Y. Zhou, Y. Chen, J. Gu; fastp: an ultra-fast all-in-one FASTQ preprocessor, Bioinformatics, Volume 34, Issue 17, 1 September 2018, Pages i884–i890, https://doi.org/10.1093/bioinformatics/bty560
 - **BWA** H. Li, R. Durbin, Fast and accurate short read alignment with Burrows-Wheeler transform, Bioinformatics. 25 (2009) 1754–1760. https://doi.org/10.1093/bioinformatics/btp324
